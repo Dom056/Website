@@ -8,6 +8,7 @@ function  Contact() {
             <h3>Or find me on:</h3>
             <button>LinkedIn</button>
             <button>GitHub</button>
+            <button>Teams</button>
         </div>
     )
 }
