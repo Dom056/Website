@@ -9,11 +9,22 @@ function  Contact() {
         <div className="contact">
             <p>If you'd like to get in touch, feel free to reach out to me :)</p>
             <h3>Get in Touch:</h3>
-            <button><img src={Email} alt="Email" /> Email Me</button>
-            <button><img src={Phone} alt="Phone" /> Phone</button>
+            <button 
+                className="Email" 
+                onClick={() => {window.location.href = "mailto:dominicdawson99@gmail.com"}}>
+                <img src={Email} alt="Email" /> Email Me</button>
+            <button 
+                className="Phone">
+                <img src={Phone} alt="Phone" /> Phone</button>
             <h3>Or find me on:</h3>
-            <button><img src={LinkedIn} alt="LinkedIn" /> LinkedIn</button>
-            <button><img src={GitHub} alt="GitHub" /> GitHub</button>
+            <button 
+                className="LinkedIn" 
+                onClick={() => window.open("https://www.linkedin.com/in/dominic-dawson-981b652b0/", "_blank")}>
+                <img src={LinkedIn} alt="LinkedIn" /> LinkedIn</button>
+            <button 
+                className="GitHub" 
+                onClick={() => window.open("https://github.com/Dom056", "_blank")}>
+                <img src={GitHub} alt="GitHub" /> GitHub</button>
         </div>
     )
 }
