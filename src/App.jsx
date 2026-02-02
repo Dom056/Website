@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import Title from './Components/Title.jsx'
 import Header from './Components/Header.jsx'
-import Intro from './Components/Intro.jsx'
+import Intro from './Sections/Intro.jsx'
 import NavBar from './Components/NavBar.jsx'
-import AboutMe from './Components/AboutMe.jsx'
-import Project from './Components/Project.jsx'
-import Contact from './Components/Contact.jsx'
+import AboutMe from './Sections/AboutMe.jsx'
+import Project from './Sections/Project.jsx'
+import Contact from './Sections/Contact.jsx'
 
 
 
