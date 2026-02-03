@@ -21,15 +21,15 @@ function App() {
       <Intro />
       </div>
       <div id="about">
-      <Header header="About Me" />
+      <Header header="📕 About Me" />
       <AboutMe />
       </div>
       <div id="projects">
-      <Header header="Projects" />
+      <Header header="📂 Projects" />
       <Project />
       </div>
       <div id="contact">
-      <Header header="Contact" />
+      <Header header="📇 Contact" />
       <Contact />
       </div>
       </main>
