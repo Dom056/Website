@@ -1,0 +1,39 @@
+.skills ul {
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  margin: 0 20px;
+  border: 1px solid white;
+  border-bottom: 3px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.skills ul li:hover {
+  border: 1px solid #00aced;
+  border-bottom: 3px solid #00aced;
+  background-color: #00aced33;
+}
+
+.achievements ul {
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.achievements ul li {
+  margin: 0 20px;
+  border: 1px solid white;
+  border-bottom: 3px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}

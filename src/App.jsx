@@ -15,6 +15,7 @@ function App() {
     <>
       <NavBar />
       <></>
+      <main className="main-content">
       <div id="intro">
       <Title/>
       <Intro />
@@ -31,6 +32,7 @@ function App() {
       <Header header="Contact" />
       <Contact />
       </div>
+      </main>
       
     </>
   )

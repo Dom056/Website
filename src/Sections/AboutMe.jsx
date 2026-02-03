@@ -1,5 +1,6 @@
 import Box from "../Components/Box.jsx";
-import SmallBox from "../Components/SmallBox.jsx";
+import "./Sections.css";
+
 
 function AboutMe() {  
     return (
@@ -9,23 +10,27 @@ function AboutMe() {
             <p>Outside of coding I'm constantly working on DIY tech projects, whether it be tinkering with raspberry pis to create a home assistant, dabbling in electronics or 3D printing custom housings. I'm always eager to learn new skills to keep myself busy.</p>
             <p>Currently looking for an internship for internships so I can get some real world experience and to learn from experienced software engineers as I develop my skill set </p >
             <img src="" alt="Dom Dawson"/>
-                <div>
-                <h3>Skills:</h3>
-                <SmallBox content="Python"/>
-                <SmallBox content="JavaScript"/>
-                <SmallBox content="React"/>
-                <SmallBox content="Express"/>   
-                <SmallBox content="HTML & CSS"/>
-                <SmallBox content="MySQL"/>
-                <SmallBox content="MongoDB"/>
-                <SmallBox content="Git & GitHub"/>
-                <SmallBox content="Docker"/>
+                <div className="skills">    
+                <h3>👨‍💻 Skills:</h3>
+                <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Express</li>   
+                <li>HTML & CSS</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Git & GitHub</li>
+                <li>Docker</li>
+                </ul>
                 </div>
-                <div>
-                <h3>Academic Achievements:</h3>
-                <Box title="First Year" content="Achieved an average of 71% across all modules"/>
-                <Box title="Computing in Business" content="Came 3rd place in BU annual Computing in Business competition"/>
-                <Box title="Second Year" content="Maintaining an average of 87% across all modules so far"/>
+                <div className="achievements">
+                <h3>🎓 Academic Achievements:</h3>
+                <ul> 
+                <li><Box title="First Year 📚" content="Achieved an average of 72% across all modules"/></li>
+                <li><Box title="Computing in Business 🥉" content="Came 3rd place in BU annual Computing in Business competition"/></li>
+                <li><Box title="Second Year 📈" content="Maintaining an average of 87% across all modules so far"/></li>
+                </ul>
                 </div>
         </div>
     )
