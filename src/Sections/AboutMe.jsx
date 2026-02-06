@@ -25,6 +25,7 @@ function AboutMe() {
                 <li>MongoDB</li>
                 <li>Git & GitHub</li>
                 <li>Docker</li>
+                <li>Figma</li>
                 </ul>
                 </div>
                 <div className="achievements">
