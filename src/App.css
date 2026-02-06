@@ -24,14 +24,77 @@ section {
 }
 
 #intro {
-  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  background-color:  #ff7e5f;
 }
 #about {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background-color:  #6a11cb;
 }
 #projects {
-  background: linear-gradient(135deg, #43cea2, #185a9d);
+  background-color:  #43cea2 ;
 }
 #contact {
-  background: linear-gradient(135deg, #ff512f, #dd2476);
+  background-color:  #dd2476;
+}
+
+.custom-shape-divider-top-1770420628 {
+    position: absolute;
+    bottom: 215px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1770420628 svg {
+    position: relative;
+    display: block;
+    width: calc(113% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1770420628 .shape-fill {
+    fill: #FF7E5F;
+}
+
+.custom-shape-divider-top-1770420816 {
+    position: absolute;
+    bottom: -1490px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1770420816 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 149px;
+}
+
+.custom-shape-divider-top-1770420816 .shape-fill {
+    fill: #6A11CB;
+}
+
+.custom-shape-divider-top-1770421127 {
+    position: absolute;
+    bottom: -2460px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1770421127 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 149px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1770421127 .shape-fill {
+    fill: #43CEA2;
 }
