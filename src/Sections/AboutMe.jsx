@@ -10,6 +10,7 @@ import Docker from "../Assets/docker.png"
 import Figma from "../Assets/figma.png"
 import MongoDB from "../Assets/mongodb.png"
 import Express from "../Assets/express.png"
+import CSS from "../Assets/css-3.png"
 
 import "./Sections.css";
 
@@ -30,7 +31,8 @@ function AboutMe() {
                 <li className="tech-item"><img src={JavaScript} alt="JavaScript"/> <span>JavaScript</span></li>
                 <li className="tech-item"><img src={react} alt="React"/> <span>React</span></li>
                 <li className="tech-item"><img src={Express} alt="Express"/> <span>Express</span></li>   
-                <li className="tech-item"><img src={HTML} alt="HTML"/> <span>HTML & CSS</span></li>
+                <li className="tech-item"><img src={HTML} alt="HTML"/> <span>HTML</span></li>
+                <li className="tech-item"><img src={CSS} alt="CSS"/> <span>CSS</span></li>
                 <li className="tech-item"><img src={MySQL} alt="MySQL"/> <span>MySQL</span></li>
                 <li className="tech-item"><img src={MongoDB} alt="MongoDB"/> <span>MongoDB</span></li>
                 <li className="tech-item"><img src={Git} alt="Git & GitHub"/> <span>Git & GitHub</span></li>
