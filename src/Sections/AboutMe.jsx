@@ -1,7 +1,17 @@
 import Box from "../Components/Box.jsx";
 import Pic from "../Assets/Profile picture.png";
-import "./Sections.css";
+import Python from "../Assets/python.png"
+import JavaScript from "../Assets/js.png"
+import react from "../Assets/react.png"
+import HTML from "../Assets/html-5.png"
+import MySQL from "../Assets/mysql.png"
+import Git from "../Assets/git.png"
+import Docker from "../Assets/docker.png"
+import Figma from "../Assets/figma.png"
+import MongoDB from "../Assets/mongodb.png"
+import Express from "../Assets/express.png"
 
+import "./Sections.css";
 
 function AboutMe() {  
     return (
@@ -16,16 +26,16 @@ function AboutMe() {
                 <div className="skills">    
                 <h3>👨‍💻 Skills:</h3>
                 <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Express</li>   
-                <li>HTML & CSS</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>Git & GitHub</li>
-                <li>Docker</li>
-                <li>Figma</li>
+                <li className="tech-item"><img src={Python} alt="Python"/> <span>Python</span></li>
+                <li className="tech-item"><img src={JavaScript} alt="JavaScript"/> <span>JavaScript</span></li>
+                <li className="tech-item"><img src={react} alt="React"/> <span>React</span></li>
+                <li className="tech-item"><img src={Express} alt="Express"/> <span>Express</span></li>   
+                <li className="tech-item"><img src={HTML} alt="HTML"/> <span>HTML & CSS</span></li>
+                <li className="tech-item"><img src={MySQL} alt="MySQL"/> <span>MySQL</span></li>
+                <li className="tech-item"><img src={MongoDB} alt="MongoDB"/> <span>MongoDB</span></li>
+                <li className="tech-item"><img src={Git} alt="Git & GitHub"/> <span>Git & GitHub</span></li>
+                <li className="tech-item"><img src={Docker} alt="Docker"/> <span>Docker</span></li>
+                <li className="tech-item"><img src={Figma} alt="Figma"/> <span>Figma</span></li>
                 </ul>
                 </div>
                 <div className="achievements">
