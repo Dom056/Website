@@ -1,4 +1,4 @@
-import './Sections.css';
+import './Project.css';
 
 function Project () {
     return (

@@ -1,0 +1,16 @@
+.intro, .about-me, .skills, .achievements {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.project {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.video-1 {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
