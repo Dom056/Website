@@ -1,5 +1,4 @@
 import Box from "../Components/Box.jsx";
-import Pic2 from "../Assets/CIB GroupPhoto.jpg";
 import Python from "../Assets/python.png"
 import JavaScript from "../Assets/js.png"
 import react from "../Assets/react.png"
