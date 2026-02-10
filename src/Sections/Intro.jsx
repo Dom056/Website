@@ -1,4 +1,4 @@
-import Pic1 from "../Assets/Profile picture.png";
+import Pic1 from "../Assets/profile-picture.png";
 import "./Intro.css";
 
 function Intro() {
