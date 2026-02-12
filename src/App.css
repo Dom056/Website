@@ -6,6 +6,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+* {
+  color-scheme: light; 
+  box-sizing: border-box;
+}
+
 html, body, #root { 
   color-scheme: light;
 }
