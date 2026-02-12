@@ -54,3 +54,32 @@ html {
     padding: 0px 50px;  
     margin: 0; 
 }
+
+@media (max-width: 768px) {
+    .nav-bar {
+        width: 95%;
+        padding: 5px 10px;
+        border-radius: 30px;
+    }
+    
+    .nav-bar ul {
+        gap: 15px; 
+    }
+    .nav-bar ul li a {
+        font-size: 14px;
+    }
+    .name {
+        padding: 0 10px; 
+    }
+    .name h3 {
+        font-size: 16px;
+    }
+    .CV {
+        padding: 0 10px; 
+    }
+    .CV-button {
+        width: auto;
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
