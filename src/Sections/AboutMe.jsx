@@ -46,7 +46,7 @@ function AboutMe() {
                 <ul> 
                 <li><Box title="First Year 📚" content="Achieved an average of 72% across all modules"/></li>
                 <li><Box title="Computing in Business 🥉" content="Came 3rd place in BU annual Computing in Business competition"/></li>
-                <li><Box title="Second Year 📈" content="Maintaining an average of 87% across all modules so far"/></li>
+                <li><Box title="Second Year 📈" content="Maintaining an average of 91% across all modules so far"/></li>
                 </ul>
                 </div>
         </div>
